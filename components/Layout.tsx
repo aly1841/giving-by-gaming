@@ -7,7 +7,7 @@ const Layout = ({ children }: JSX.ElementChildrenAttribute) => {
     return (
         <>
             <Head>
-                <title>Giving bY Gaming</title>
+                <title>Giving by Gaming</title>
                 <meta name="description" content="Pay your developers more" />
                 <meta name="og:title" content="Giving by Gaming" />
                 <meta name="og:description" content="Pay your developers more" />

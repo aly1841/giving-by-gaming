@@ -12,11 +12,11 @@ const Home: NextPage = () => {
           alt=""
         />
         <h1 className={styles.title}>
-          Giving By Gaming
+          Giving by Gaming
         </h1>
 
         <p className={styles.description}>
-          Giving by Gaming is a nonprofit organization dedicated to raising money for various charities through video game tournaments and taking strides towards breaking the stigma around gamers and the gaming community.
+          We are a nonprofit organization dedicated to raising money for various charities through video game tournaments and taking strides towards breaking the stigma around gamers and the gaming community.
         </p>
 
         <Box sx={{ display: "flex", gap: 3 }}>
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
             className={styles.button}
             variant="outlined"
             color="primary"
-            href="https://forms.gle/BzCe7whiP4Wr3EXY9"
+            href="https://forms.gle/3Sn3uTBor5cwzT3h8"
           >
             Team Registration
           </Button>

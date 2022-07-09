@@ -23,7 +23,7 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { Divider } from '@mui/material';
 
-const pages: string[] = [];
+const pages: string[] = ['About Us'];
 const settings: string[] = [];
 // const pages = ['About Us', 'Join Us', 'Sponsors', 'Tournaments', 'Donate', "Contact"];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -159,7 +159,7 @@ const ResponsiveAppBar = () => {
                             </Button>
                         ))}
                     </Box>
-                    <Box sx={{ flexGrow: 0 }}>
+                    {/* <Box sx={{ flexGrow: 0 }}>
                         <Tooltip title="Open settings">
                             <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                                 <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
@@ -187,7 +187,7 @@ const ResponsiveAppBar = () => {
                                 </MenuItem>
                             ))}
                         </Menu>
-                    </Box>
+                    </Box> */}
                 </Toolbar>
             </Container>
         </AppBar >
