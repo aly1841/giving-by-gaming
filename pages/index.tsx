@@ -1,15 +1,18 @@
 import { Box, Button, Container } from '@mui/material';
 import type { NextPage } from 'next';
 import styles from '../styles/Home.module.css';
+import Image from "next/image";
 
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Container className={styles.main}>
-        <img
+        <Image
           className={styles.mainbg}
           src="/Chibi.png"
           alt=""
+          width="50%"
+          height="50%"
         />
         <h1 className={styles.title}>
           Giving By Gaming
@@ -18,7 +21,6 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           Giving by Gaming is a nonprofit organization dedicated to raising money for various charities through video game tournaments and taking strides towards breaking the stigma around gamers and the gaming community.
         </p>
-
         <Box sx={{ display: "flex", gap: 3 }}>
           <Button
             className={styles.button}

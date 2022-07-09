@@ -2,7 +2,6 @@ import Nav from "./Nav";
 import Footer from "./Footer";
 import { Box, createTheme, CssBaseline, ThemeProvider } from "@mui/material";
 import Head from "next/head";
-import { red } from '@mui/material/colors';
 
 export const darkTheme = createTheme({
     palette: {
@@ -34,6 +33,7 @@ const Layout = ({ children }: JSX.ElementChildrenAttribute) => {
                 <CssBaseline />
                 <Nav />
                 <Box p={2}>
+                    {/* @ts-ignore */}
                     {children}
                 </Box>
                 <Footer />
