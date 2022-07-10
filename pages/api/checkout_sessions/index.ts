@@ -28,7 +28,6 @@ export default async function handler(
             // Create Checkout Sessions from body params.
             const params: Stripe.Checkout.SessionCreateParams = {
                 submit_type: 'pay',
-                payment_method_types: ['card'],
                 line_items,
                 success_url: `${req.headers.origin}/result?session_id={CHECKOUT_SESSION_ID}`,
                 cancel_url: `${req.headers.origin}/pay`,
