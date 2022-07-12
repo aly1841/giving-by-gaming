@@ -17,6 +17,12 @@ const About: NextPage = () => {
                     <Image src="/OldLogo.png" alt="logo" width={500} height={500} />
                     <p>Our original logo!</p>
                 </Box>
+                <Typography variant="h2">
+                    Our Mission
+                </Typography>
+                <Typography variant="body1" py={3}>
+                    Giving by Gaming hopes to benefit many causes in the future, and provide support to people around the world. Giving by Gaming also wishes to lead the way in breaking the stigma and stereotypes surrounding gamers, and grow a healthy community of gamers gaming to give.
+                </Typography>
             </Stack>
         </Container>
     </>;

@@ -23,7 +23,7 @@ const CheckoutForm = () => {
         e.preventDefault();
         setLoading(true);
         // Create a Checkout Session.
-        const response = await fetchPostJSON('/api/checkout_sessions', {
+        const response = await fetchPostJSON('/api/checkout_sessions/cart', {
             amount: input.customDonation,
         });
 
@@ -59,7 +59,6 @@ const CheckoutForm = () => {
                 currency={config.CURRENCY}
                 onChange={handleInputChange}
             />
-            {/* <StripeTestCards /> */}
             <button
                 className="checkout-style-background"
                 type="submit"

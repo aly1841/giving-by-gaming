@@ -19,7 +19,7 @@ const Home: NextPage = () => {
           We are a nonprofit organization dedicated to raising money for various charities through video game tournaments and taking strides towards breaking the stigma around gamers and the gaming community.
         </p>
 
-        <Box sx={{ display: "flex", gap: 3 }}>
+        <Box sx={{ display: "flex", gap: 2, flexWrap: "wrap" }}>
           <Button
             className={styles.button}
             variant="outlined"
@@ -36,7 +36,17 @@ const Home: NextPage = () => {
           >
             Team Registration
           </Button>
+
         </Box>
+        <Button
+          // className={styles.button}
+          variant="outlined"
+          color="secondary"
+          href="/donate"
+          sx={{ m: 3, p: 2, width: "40%", minWidth: 275, fontWeight: "bold", fontSize: "1.5 rem" }}
+        >
+          Donate
+        </Button>
       </Container>
     </div>
   );

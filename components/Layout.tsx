@@ -15,7 +15,6 @@ const Layout = ({ children }: JSX.ElementChildrenAttribute) => {
                 <meta name="theme-color" content="#05a2e1" />
                 <meta name="viewport" content="initial-scale=1, width=device-width" />
                 <link rel="icon" href="/Chibi.png" />
-
             </Head>
             <CssBaseline />
             <Nav />

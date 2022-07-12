@@ -32,7 +32,7 @@ const Products = () => {
     return (
         <Box sx={{ display: 'flex', gap: 4, flexWrap: "wrap", WebkitFlexWrap: "wrap", justifyContent: "center" }}>
             {product.map((product) => (
-                <Card key={product.name} sx={{ minWidth: 250, maxWidth: { xs: "25%" }, bgColor: 'primary', p: 1 }} raised={true}>
+                <Card key={product.name} sx={{ minWidth: 275, maxWidth: { xs: "25%" }, bgColor: 'primary', p: 1 }} raised={true}>
                     <CardContent>
                         <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
                             {product.description}
