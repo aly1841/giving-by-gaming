@@ -8,7 +8,6 @@ const Layout = ({ children }: JSX.ElementChildrenAttribute) => {
         <>
             <Head>
                 <title>Giving by Gaming</title>
-                <meta name="description" content="Pay your developers more" />
                 <meta name="og:title" content="Giving by Gaming" />
                 <meta name="og:description" content="Support charity by playing your favorite games in our tournament!" />
                 <meta name="og:image" content="/Chibi.png" />

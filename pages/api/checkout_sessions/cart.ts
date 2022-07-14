@@ -30,7 +30,7 @@ export default async function handler(
                 submit_type: 'pay',
                 line_items,
                 success_url: `${req.headers.origin}/result?session_id={CHECKOUT_SESSION_ID}`,
-                cancel_url: `${req.headers.origin}/pay`,
+                cancel_url: `${req.headers.origin}/entry-fees`,
                 mode: 'payment',
             };
 

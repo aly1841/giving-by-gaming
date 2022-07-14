@@ -24,7 +24,7 @@ const ResultPage: NextPage = () => {
     if (error) return <div>failed to load</div>;
 
     if (data?.payment_intent?.status === "success") {
-        router.push("/");
+        setTimeout(() => router.push("/"), 1000);
     }
 
     return (
