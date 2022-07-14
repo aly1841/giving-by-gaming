@@ -16,7 +16,7 @@ const Products = () => {
         setLoading(true);
 
         const response = await fetchPostJSON(
-            '/api/checkout_sessions',
+            '/api/checkout_sessions/cart',
             cartDetails
         );
 
