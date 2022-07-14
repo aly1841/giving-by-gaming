@@ -1,7 +1,7 @@
 const product = [
     {
         name: 'Individual Ticket',
-        description: 'Individual player',
+        description: 'Teams of 1-4 players',
         id: process.env.NEXT_PUBLIC_STRIPE_PRODUCT_ID_INDIVIDUAL!,
         price: 700,
         image:
@@ -11,7 +11,7 @@ const product = [
     },
     {
         name: 'Team Ticket',
-        description: "For teams of 2-4 players",
+        description: "Teams of 5 players",
         id: process.env.NEXT_PUBLIC_STRIPE_PRODUCT_ID_TEAM!,
         price: 500,
         image:
