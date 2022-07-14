@@ -3,7 +3,6 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
@@ -14,12 +13,8 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-import { Divider } from '@mui/material';
 
-const pages: string[] = ['About Us', 'Entry Fees', 'Donate', 'Tournament Format'];
-const settings: string[] = [];
-// const pages = ['About Us', 'Join Us', 'Sponsors', 'Tournaments', 'Donate', "Contact"];
-// const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages: string[] = ['About Us', 'Entry Fees', 'Donate', 'Staff', 'Tournament Format'];
 
 const ResponsiveAppBar = () => {
     const router = useRouter();

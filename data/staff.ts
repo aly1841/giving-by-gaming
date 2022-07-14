@@ -1,14 +1,18 @@
 const staff = [
     {
         name: "Amy Yan",
-        title: "Director of Operations",
-        image: "https://randomuser.me/api/portraits/" + Math.floor(Math.random() * 10) + "/" + Math.floor(Math.random() * 10) + "/" + Math.floor(Math.random() * 10) + ".jpg",
-
+        title: "Founding President",
+        image: "https://cdn.discordapp.com/attachments/748273645142671430/995879181688778762/unknown.png",
     },
     {
         name: "Jeffrey Liu",
         title: "Chief Operations Officer",
         image: "https://media.discordapp.net/attachments/994339160448053288/994420318263324712/DSC00099.JPG"
+    },
+    {
+        name: "Caleb Park",
+        title: "Lead Artist",
+        image: "https://cdn.discordapp.com/attachments/748273645142671430/996514359222210731/IMG_9099.jpg"
     },
     {
         name: "Anirudh Vayalali",
@@ -18,19 +22,13 @@ const staff = [
     {
         name: "Ethan Havemann",
         title: "Head of Strategy",
-        image: "https://randomuser.me/api/portraits/" + Math.floor(Math.random() * 10) + "/" + Math.floor(Math.random() * 10) + "/" + Math.floor(Math.random() * 10) + ".jpg",
+        image: ""
     },
-
     {
         name: "Yaalinee Prabhu",
         title: "Vice President",
-        image: "https://randomuser.me/api/portraits/" + Math.floor(Math.random() * 10) + "/" + Math.floor(Math.random() * 10) + "/" + Math.floor(Math.random() * 10) + ".jpg",
+        image: ""
     },
-    {
-        name: "Caleb Park",
-        title: "Lead Artist",
-        image: "https://cdn.discordapp.com/attachments/748273645142671430/996514359222210731/IMG_9099.jpg"
-    }
 ];
 
 export default staff;
