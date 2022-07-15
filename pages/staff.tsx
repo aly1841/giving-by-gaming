@@ -8,8 +8,8 @@ const Staff: NextPage = () => {
         // @ts-ignore
         <Grid container gap={6} align="center" justifyContent="center">
             {staff.map((profile) => (
-                <Grid item style={{ textAlign: "center" }}>
-                    <Profile key={profile.name} {...profile} />
+                <Grid item style={{ textAlign: "center" }} key={profile.name}>
+                    <Profile {...profile} />
                 </Grid>
             ))}
         </Grid>

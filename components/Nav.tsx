@@ -13,7 +13,8 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
-
+import Image from 'next/image';
+import Chibi from "../public/Chibi.png";
 const pages: string[] = ['About Us', 'Entry Fees', 'Donate', 'Staff', 'Tournament Format'];
 
 const ResponsiveAppBar = () => {
@@ -40,7 +41,7 @@ const ResponsiveAppBar = () => {
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Box sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }}>
-                        <img src="https://cdn.discordapp.com/attachments/896446873777365012/994260156600811530/Chibi.PNG" alt="logo" width="50px" height="50px" />
+                        <Image src={Chibi} alt="logo" width="50px" height="50px" />
                     </Box>
 
 
