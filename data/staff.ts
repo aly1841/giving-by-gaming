@@ -21,7 +21,8 @@ const staff = [
     },
     {
         name: "Scott Tran",
-        title: "Community Outreach Coordinator"
+        title: "Community Outreach Coordinator",
+        image: ""
     },
     {
         name: "Caleb Park",
