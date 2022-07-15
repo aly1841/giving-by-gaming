@@ -20,6 +20,10 @@ const staff = [
         image: ""
     },
     {
+        name: "Scott Tran",
+        title: "Community Outreach Coordinator"
+    },
+    {
         name: "Caleb Park",
         title: "Lead Artist",
         image: "https://cdn.discordapp.com/attachments/748273645142671430/996514359222210731/IMG_9099.jpg"
