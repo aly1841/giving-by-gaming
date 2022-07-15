@@ -30,8 +30,18 @@ const staff = [
         image: "https://cdn.discordapp.com/attachments/748273645142671430/996514359222210731/IMG_9099.jpg"
     },
     {
-        name: "Anirudh Vayalali",
+        name: "Jessica Xu",
         title: "Lead Artist",
+        image: "https://cdn.discordapp.com/attachments/854877298909380648/996210631453724722/IMG_7800.jpg"
+    },
+     {
+        name: "Suzie van Eeden",
+        title: "Artist",
+        image: "https://cdn.discordapp.com/attachments/854877298909380648/996210631453724722/IMG_7800.jpg"
+    },
+     {
+        name: "Anirudh Vayalali",
+        title: "Artist",
         image: "https://cdn.discordapp.com/attachments/854877298909380648/996210631453724722/IMG_7800.jpg"
     },
 ];
