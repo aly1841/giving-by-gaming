@@ -27,7 +27,3 @@ export default async function handler(
         res.status(500).json({ statusCode: 500, message: errorMessage });
     }
 }
-
-export const config = {
-    runtime: 'experimental-edge',
-};

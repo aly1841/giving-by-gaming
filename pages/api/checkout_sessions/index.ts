@@ -49,7 +49,3 @@ export default async function handler(
         res.status(405).end('Method Not Allowed');
     }
 }
-
-export const config = {
-    runtime: 'experimental-edge',
-};
