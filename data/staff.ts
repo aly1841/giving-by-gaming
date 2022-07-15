@@ -1,7 +1,7 @@
 const staff = [
     {
         name: "Amy Yan",
-        title: "Founding President",
+        title: "President",
         image: "https://cdn.discordapp.com/attachments/748273645142671430/995879181688778762/unknown.png",
     },
     {
