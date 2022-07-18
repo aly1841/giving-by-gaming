@@ -17,7 +17,7 @@ const Layout = ({ children }: JSX.ElementChildrenAttribute) => {
             </Head>
             <CssBaseline />
             <Nav />
-            <Box sx={{ p: 2, minWidth: "100vh" }}>
+            <Box sx={{ p: 2, minHeight: "100vh" }}>
                 {/* @ts-ignore */}
                 {children}
             </Box>

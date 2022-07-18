@@ -17,7 +17,12 @@ const ResultPage: NextPage = () => {
 
     if (error) return <div>failed to load</div>;
 
-    console.log(data);
+    if (data?.payment_intent?.status === "succeeded") {
+        setTimeout(() => {
+            router.push('/');
+        }
+            , 5000);
+    }
     return (
         <Container>
             <Typography component="h1" variant="h4" color="text.secondary">Checkout Payment Result</Typography>

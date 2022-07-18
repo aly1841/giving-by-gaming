@@ -1,4 +1,5 @@
 import { Box, Button, Container } from '@mui/material';
+import Link from "../components/Link";
 import type { NextPage } from 'next';
 import styles from '../styles/Home.module.css';
 
@@ -39,7 +40,7 @@ const Home: NextPage = () => {
 
         </Box>
         <Button
-          // className={styles.button}
+          component={Link}
           variant="outlined"
           color="secondary"
           href="/donate"
