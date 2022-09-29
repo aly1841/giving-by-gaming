@@ -25,7 +25,7 @@ const Home: NextPage = () => {
             className={styles.button}
             variant="outlined"
             color="primary"
-            href="https://forms.gle/BzCe7whiP4Wr3EXY9"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfZgfDenmUz5KxuJJ8WI0BJo0wr_vPUKAqdiXNTUyOy_MW7sQ/viewform"
           >
             Invidiual Registration
           </Button>
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
             className={styles.button}
             variant="outlined"
             color="primary"
-            href="https://forms.gle/3Sn3uTBor5cwzT3h8"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdp8TRo_2--msyzH7dPWw6bZKYBnXV25H2IF7Qfi7jAAdyoFw/viewform"
           >
             Team Registration
           </Button>
